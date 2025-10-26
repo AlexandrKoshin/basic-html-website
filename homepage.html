@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML-only website">
+    <meta name="description" content="A simple HTML-only website for a roadmap.sh Frontend branch">
+    <meta name="keywords" content="HTML, simple html-only, website, roadmap.sh, frontend project, road">
+    <meta name="author" content="Alexandr Koshin">
+    <title>Basic HTML Website</title>
+</head>
+
+<body style="font-family: cursive;">
+    <header
+        style="position: sticky; top: 10px; display: flex; justify-content: space-between; align-items: center; margin: 10px 20px;">
+        <a class="logo" style="display: flex; align-items: center; gap: 12px;">
+            <img class="logo-img" src="icon.png" alt="logo" width="40">
+            <span class="logo-text">AlexandrKoshin</span>
+        </a>
+        <nav>
+            <ul class="nav-ul" style="list-style: none; margin-block: 0; padding-inline: 0; display: flex; gap: 6px;">
+                <li style="width: max-content;" class="nav-item">
+                    <a style="text-decoration: none; color: currentColor;" href="/homepage.html">Home /</a>
+                </li>
+                <li style="width: max-content;" class="nav-item">
+                    <a style="text-decoration: none; color: currentColor;" href="/projects.html">Projects /</a>
+                </li>
+                <li style="width: max-content;" class="nav-item">
+                    <a style="text-decoration: none; color: currentColor;" href="/articles.html">Articles /</a>
+                </li>
+                <li style="width: max-content;" class="nav-item">
+                    <a style="text-decoration: none; color: currentColor;" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero"
+            style="width: 100%; height: 45vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <h1 style="margin-block: 0; font-size: 3em;">Frontend Developer</h1>
+            <p style="color: #8b8b8b;">HTML only with proper layout, no styling</p>
+        </div>
+        <section style="width: 100%; display: flex; justify-content: center">
+            <div class="projects"
+                style="width: 25%; border: 3px solid black; display: flex; flex-direction: column; text-align: center; justify-content: space-evenly;">
+                <h2 style="margin-block: 0; text-align: start; padding-left: 15px;">Projects</h2>
+                <article
+                    style="text-align: start; padding-left: 15px; border-bottom: 2px solid black;padding-bottom: 9px;">
+                    HTML Only Portfolio</article>
+                <article
+                    style="text-align: start; padding-left: 15px; border-bottom: 2px solid black;padding-bottom: 9px;">
+                    Age Calculator</article>
+                <article
+                    style="text-align: start; padding-left: 15px; border-bottom: 2px solid black;padding-bottom: 9px;">
+                    Quizz App</article>
+                <article
+                    style="text-align: start; padding-left: 15px; border-bottom: 2px solid black;padding-bottom: 9px;">
+                    Countdown Timer</article>
+                <article style="text-align: start; padding-left: 15px;">Weather Widget</article>
+            </div>
+            <div class="work"
+                style="width: 40%; border-top: 3px solid black; border-right: 3px solid black; border-bottom: 3px solid black;">
+                <div class="exp" style="margin-bottom: 25px;">
+                    <h2 style="padding-left: 15px;">Work Experience</h2>
+                    <a style="padding-left: 15px; font-style: oblique; color: currentColor; text-decoration: none;"
+                        href="https://roadmap.sh">roadmap.sh</a>
+                    <p style="padding-left: 15px; margin-block: 0;">Solved all the frontend projects</p>
+                    <a style="padding-left: 15px; text-decoration: none;" href="https://roadmap.sh/u/allko">Visit my
+                        profile</a>
+                </div>
+                <div class="opensource" style="border-top: 3px solid black;">
+                    <h2 style="padding-left: 15px;">OpenSource Work</h2>
+                    <p style="padding-right: 15px; padding-left: 15px; width: fit-content; margin-block: 0;">Contributed
+                        to 50 opensource<br>
+                        projects. Made my
+                        own projects with<br>200 GitHub Stars</p>
+                    <a style="padding-left: 15px; text-decoration: none;" href="https://roadmap.sh/u/allko">Visit my
+                        profile</a>
+                </div>
+            </div>
+            <div class="education"
+                style="width: 35%; border-top: 3px solid black; border-right: 3px solid black; border-bottom: 3px solid black;">
+                <h2 style="padding-inline-start: 25px;">Education</h2>
+                <p style="padding-inline-start: 25px;">Graduated with 3.76 out of 4<br>CGPA. Won Acme
+                    Hackathon.<br>Organized 30 sessions.</p>
+                <ul style="list-style-position:inside; list-style-type:'- '; padding-inline-start: 25px;">Courses I
+                    took:
+                    <li>Object Oriented Programming (OOP)</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Managment Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discreet Mathematics</li>
+                </ul>
+            </div>
+        </section>
+        <aside style="width: 100%; display: flex; justify-content: space-evenly; flex-direction: column;">
+            <h2 style="margin: 2% 5%;">Reviews from my teachers</h2>
+            <blockquote class="wrap" style="display: flex; justify-content: center; gap: 5%;">
+                <blockquote
+                    style="border: 2px solid black; border-radius: 30px; display: flex; flex-direction: column; justify-content: space-around; padding: 2% 1.5%;"
+                    class="item">
+                    <p style="margin-block-start: 0;">AlexandrKoshin was a brilliant<br>student; always stood
+                        out<br>with his assignments.</p>
+                    <footer style="color: #8b8b8b;">Jane Doe<br>Assistant professor</footer>
+                </blockquote>
+                <blockquote
+                    style="border: 2px solid black; border-radius: 30px; display: flex; flex-direction: column; justify-content: space-around; padding: 2% 1.5%;"
+                    class="item">
+                    <p style="margin-block-start: 0;">AlexandrKoshin was a brilliant<br>student; always stood
+                        out<br>with his assignments.</p>
+                    <footer style="color: #8b8b8b;">Jane Doe<br>Assistant professor</footer>
+                </blockquote>
+                <blockquote
+                    style="border: 2px solid black; border-radius: 30px; display: flex; flex-direction: column; justify-content: space-around; padding: 2% 1.5%;"
+                    class="item">
+                    <p style="margin-block-start: 0;">AlexandrKoshin was a brilliant<br>student; always stood
+                        out<br>with his assignments.</p>
+                    <footer style="color: #8b8b8b;">Jane Doe<br>Assistant professor</footer>
+                </blockquote>
+        </aside>
+        <footer>
+            <p style="text-align: center; margin-top: 10%;">&copy; all rights reserved 2025</p>
+        </footer>
+    </main>
+</body>
+
+</html>
