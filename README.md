@@ -1,4 +1,6 @@
-#### link: https://alexandrkoshin.github.io/basic-html-website/homepage.html
+## https://alexandrkoshin.github.io/basic-html-website/homepage.html
+
+## https://roadmap.sh/projects/basic-html-website
 
 # Basic HTML Website
 
